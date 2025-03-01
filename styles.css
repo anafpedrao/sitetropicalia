@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --laranja-claro: #5f020e;
  }
 
 body {
@@ -21,13 +21,13 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #5f020e;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/3a8be2a994b8d179e94eec5784359910.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -40,11 +40,12 @@ section {
 
 /* posicionamento para a imagem à direita */
 .img-inicio {
-    position: absolute;
+    position:inherit;
     right: 0;
-    top: 18rem;
-    width: 45rem;
-    height: auto;
+    top: 21em;
+    width: 40rem;
+    height: min-content;
+    border-radius: 50px;
 }
 
 
@@ -105,14 +106,14 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/3a8be2a994b8d179e94eec5784359910.jpg');
     background-size: cover;
-    padding: 4rem 0;
+    padding: 2rem 0;
+    border-radius: 15px;
     /* Espaçamento interno para a seção de contato */
 
 }
@@ -129,7 +130,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #5f020e;
     border: none;
     font-weight: bold;
 }
